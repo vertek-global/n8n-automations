@@ -5,7 +5,7 @@
     },
     "n8n-mcp": {
       "command": "node",
-      "args": ["/Users/toddspencer/Cursor Projects/n8n-automations/n8n-mcp/dist/mcp/index.js"],
+      "args": ["n8n-mcp/dist/mcp/index.js"],
       "env": {
         "MCP_MODE": "stdio",
         "LOG_LEVEL": "error",
