@@ -1,0 +1,10 @@
+[2025-08-26T05:15:57.861Z] [n8n-mcp] [INFO] Node.js version: v24.3.0
+[2025-08-26T05:15:57.862Z] [n8n-mcp] [INFO] Platform: darwin x64
+[2025-08-26T05:15:57.862Z] [n8n-mcp] [INFO] Attempting to use better-sqlite3...
+[2025-08-26T05:15:57.875Z] [n8n-mcp] [INFO] Initializing n8n Documentation MCP server
+[2025-08-26T05:15:57.877Z] [n8n-mcp] [INFO] MCP server initialized with 22 tools (n8n API: not configured)
+[2025-08-26T05:15:57.878Z] [n8n-mcp] [INFO] Successfully initialized better-sqlite3 adapter
+[2025-08-26T05:15:57.882Z] [n8n-mcp] [INFO] FTS5 table already exists for templates
+[2025-08-26T05:15:57.883Z] [n8n-mcp] [INFO] FTS5 enabled with 0 indexed entries
+[2025-08-26T05:15:57.883Z] [n8n-mcp] [INFO] Initialized database from: /Users/toddspencer/Cursor Projects/n8n-mcp/n8n-mcp/data/nodes.db
+[2025-08-26T05:15:57.887Z] [n8n-mcp] [INFO] n8n Documentation MCP Server running on stdio transport
