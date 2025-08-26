@@ -4,8 +4,15 @@
       "url": "http://localhost:8931/mcp"
     },
     "n8n-mcp": {
-      "command": "cursor",
-      "args": ["agent", "run", "n8n-mcp-agent"]
+      "command": "node",
+      "args": ["/Users/toddspencer/Cursor Projects/n8n-mcp/n8n-mcp/dist/mcp/index.js"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "https://builder.vertekglobal.com",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjODhmYjUxYi0yZWJhLTQwNTctYTcwMC03NjVmNWEyYTU1YjciLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzU2MTY1Mzg1fQ.DGzv4REWcgJz92yiG1CEXuu_OnBCEHwTeW-pjiGYxiQ"
+      }
     }
   }
 }
